@@ -3,17 +3,17 @@ pipeline{
     stages {
         stage('Build') {
             steps {
-                echo 'hello'
+                echo 'hello build devloping'
             }
         }
        stage ('Test'){
            steps {
-               sleep 60
+               sleep 20
            }
        }
        stage ('Devlop') {
            steps {
-               echo 'Hello2'
+               echo 'Hello build devloped'
            }
        }
        
